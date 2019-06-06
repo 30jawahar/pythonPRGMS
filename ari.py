@@ -1,8 +1,6 @@
-a=int(input())
-n=int(input())
-d=int(input())
-h=(n+((a-1)*d))
-avg=((n+h)//2)
-ng=((h-n)//d)+1
+a,n,d=input().split()
+h=(int(n)+((int(a)-1)*int(d)))
+avg=((int(n)+int(h))//2)
+ng=((int(h)-int(n))//int(d))+1
 sum=avg*ng
 print(sum)
