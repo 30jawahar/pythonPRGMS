@@ -1,6 +1,3 @@
 a=int(input())
-b=[]
-for i in range(1,a+1):
-                d=int(input())
-                b.append(d)
-print(min(b))    
+b=input().split()
+print(min(b,key=int))    
