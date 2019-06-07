@@ -1,7 +1,7 @@
-a=int(input())
-b=[]
-for i in range(1,a+1):
-                d=int(input())
-                b.append(d)
+ a=int(input())
+b=input().split()
+c=''
 b.sort()
-print(b) 
+for i in range(len(b)-1):
+    c+=str(b[i])+" "
+print(c+str(b[-1]))
