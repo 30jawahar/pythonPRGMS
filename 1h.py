@@ -1,10 +1,10 @@
-a=int(input())
-b=list(map(int,input().split()))
+f=int(input())
+g=list(map(int,input().split()))
 c=[]
-for i in range(a):
-    for j in range(i+1,len(b)):
-        if(b[j]==b[i]):
-            c.append(b[i])
+for i in range(f):
+    for j in range(i+1,len(g)):
+        if(g[j]==g[i]):
+            c.append(g[i])
             print(c)
 if(len(c)==0):
     print("unique")
