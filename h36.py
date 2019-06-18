@@ -6,5 +6,5 @@ for i in (b):
     c.append(i)
 c.reverse()
 for i in range(len(c)):
-    d+=str(c[i])+"_>"
+    d+=str(c[i])+"->"
 print(d)
