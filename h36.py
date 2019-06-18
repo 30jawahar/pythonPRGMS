@@ -1,10 +1,10 @@
-a=input()
-b=input().split()
-c=[]
-d=''
-for i in (b):
-    c.append(i)
-c.reverse()
-for i in range(len(c)-1):
-    d+=str(c[i])+"->"
-print(d+str(c[-1]))
+q=input()
+t=input().split()
+p=[]
+f=''
+for i in (t):
+    p.append(i)
+p.reverse()
+for i in range(len(p)-1):
+    f+=str(p[i])+"->"
+print(f+str(p[-1]))
