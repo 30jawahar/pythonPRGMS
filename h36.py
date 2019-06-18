@@ -7,4 +7,4 @@ for i in (b):
 c.reverse()
 for i in range(len(c)):
     d+=str(c[i])+"_>"
-print(d+"_")
+print(d)
