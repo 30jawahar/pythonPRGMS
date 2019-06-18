@@ -5,6 +5,6 @@ d=''
 for i in (b):
     c.append(i)
 c.reverse()
-for i in range(len(c)):
+for i in range(len(c)-1):
     d+=str(c[i])+"->"
-print(d)
+print(d+str(c[-1]))
